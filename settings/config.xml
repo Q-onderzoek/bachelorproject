@@ -52,13 +52,15 @@
 	<input type="radio" required="true">1 jaar;2 jaar;3 jaar;4 jaar;meer dan 4 jaar</input>
 
     <note bg="false">All fields marked with an * are mandatory.</note>
-  </item>
  
-  <!-- URL for data transmission via POST/GET (leave blank if not required) -->
-  <item id="submitUrl">exe.php?do=save</item>
-  <!-- request mode (post|get) -->
-  <item id="submitUrlMethod">post</item>
+     </item>
 
-  <!-- data transmission via email, user must have an e-mail programm like Outlook (leave blank if not required) -->
-  <item id="submitMail"></item>
- </config>
+     <!-- URL for data transmission via POST/GET (leave blank if not required) -->
+     <item id="submitUrl">exe.php?do=save</item>
+  
+     <!-- request mode (post|get|firebase) -->
+     <item id="submitUrlMethod">firebase</item>
+  
+     <!-- data transmission via email, user must have an e-mail programm like Outlook (leave blank if not required) -->
+     <item id="submitMail">yourdomain.com</item>
+   </config>
