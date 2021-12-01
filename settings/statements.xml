@@ -1,46 +1,80 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 
-   <statements version="1.0" htmlParse="false">
-<statement id="1">Een innovatie aanpak voor quantum technologie heeft betrokkenheid nodig van wetenschap, bedrijfsleven, de rijksoverheid en burgers.</statement>
-<statement id="2">Bij innovatie mogen mensen, bedrijven en instellingen zonder waarneembaar belang genegeerd worden.</statement>
-<statement id="3">Indien mensen zonder zichtbaar belang reageren op een innovatie is het nodig om na te denken over hun reactie en daar gepast op te reageren.</statement>
-<statement id="4">Standpunten van verschillende belanghebbenden zijn niet nodig om een oordeel te vellen over de toepassing van beleid. </statement>
-<statement id="5">Het is noodzakelijk om tijdens een innovatie, of een aanpak om te komen tot een innovatie, te reflecteren over mogelijke gevolgen van een innovatie.</statement>
-<statement id="6">Het is nodig om af te wijken van bestaand beleid om mensen tegemoet te komen die een andere zienswijze hebben over een innovatie.</statement>
-<statement id="7">Het is noodzakelijk om beleid en beleidsinstrumenten aan te passen voor de invoering van quantum technologie. </statement>
-<statement id="8">Het is niet belangrijk om de technologie of de innovatie te begrijpen, het gaat om de toepassingen die daaruit naar voren komen.</statement>
-<statement id="9">Als een quantum technologische toepassing niet duurzamer is dan een conventionele technologische toepassing, dan mag het niet ingevoerd worden.</statement>
-<statement id="10">De nationale agenda quantum technologie is opgesteld door wetenschappers en bedrijfsleven daardoor niet inclusief. </statement>
-<statement id="11">De nationale agenda quantum technologie moet zich richten op maatschappelijke doelen.</statement>
-<statement id="12">Het is noodzakelijk het bedrijfsleven te betrekken bij een aanpak op het gebied van quantum technologie</statement>
-<statement id="13">Het is noodzakelijk om de wetenschap te betrekken bij een aanpak op het gebied van quantum technologie</statement>
-<statement id="14">Het is noodzakelijk om burgers te betrekken bij een aanpak op het gebied van quantum technologie</statement>
-<statement id="15">Normen en waarden veranderen door quantum technologie.</statement>
-<statement id="16">Nederland moet haar dominante positie  op het gebied van quantum technologie behouden. </statement>
-<statement id="17">Technologie is instrumenteel, het is wat mensen met specifieke toepassingen doen wat bepaalt of het effect wenselijk is.</statement>
-<statement id="18">De Rijksoverheid is verantwoordelijk voor  het bestrijden van ongewenste effecten van innovatie.</statement>
-<statement id="19">Het moet duidelijk zijn wie er verantwoordelijk is voor enige gevolgen van quantum technologie voor deze toegepast mag worden. </statement>
-<statement id="20">Verhalen over de toekomst zijn een onderdeel van onze realiteit, ze zijn noodzakelijk  om onze gedachten te richten op gewenste innovaties.</statement>
-<statement id="21">Het creëren van verhalen over de toekomst zijn nodig om te verkennen of er betere alternatieve technologieën zijn dan quantum technologieën.</statement>
-<statement id="22">De wetenschap ontdekt, de industrie past  toe en de maatschappij moet zich aanpassen aan deze nieuwe mogelijkheden.</statement>
-<statement id="23">De Rijksoverheid is verantwoordelijk voor het voorbereiden van de maatschappij op innovatie.</statement>
-<statement id="24">Het proces om te komen tot de inzet van quantum technologie moet gevormd worden door de maatschappelijke dialoog over deze technologie.</statement>
-<statement id="25">Het proces om te komen tot de inzet van quantum technologie moet gevormd worden door het beleid van de regering.</statement>
-<statement id="26">het proces om te komen tot de inzet van quantum technologie moet gevormd worden door het beleid van beleidsmedewerkers.</statement>
-<statement id="27">Controversiële onderwerpen moeten in het onderzoek naar, en innovatie met quantum technologie vermeden worden.</statement>
-<statement id="28">Mensen hebben hun normen en waarden niet zomaar paraat, daardoor kan men deze niet toepassen in een ontwerp voor quantum technologie.</statement>
-<statement id="29">De economische voordelen zijn voldoende reden voor grootschalige toepassing van quantum technologie. </statement>
-<statement id="30">Quantum technologie moet aan minder ontwikkelde landen beschikbaar gesteld worden, de Nederlandse aanpak moet hierin voorzien.</statement>
-<statement id="31">Een ethische discussie ten aanzien van quantum technologie is nutteloos als de Verenigde Staten en China deze technologie zomaar inzetten.</statement>
-<statement id="32">De Nederlandse aanpak  houdt voldoende rekening met het voorbereiden van de Rijksoverheid op quantum technologie.</statement>
-<statement id="33">De Nederlandse aanpak bevat  voldoende maatregelen om  de ontwikkeling van quantum technologie bij te sturen vanuit de Rijksoverheid.</statement>
-<statement id="34">De Nederlandse aanpak  moet voorzien zijn van kaders en richtlijnen gebaseerd op een impact analyse van quantum technologie.</statement>
-<statement id="35">Het is goed meer te investeren  in quantum technologie dan in andere sleutel technologieën.</statement>
-<statement id="36">De Nederlandse aanpak leidt onvoldoende tot specifieke innovaties om uitdagingen zoals ziekte, criminaliteit,  en sociale achterstand aan te pakken.</statement>
-<statement id="37">Het is nodig dat de Nederlandse aanpak op het gebied van quantum technologie meer doet aan scenario ontwikkeling.</statement>
-<statement id="38">De Nederlandse aanpak  heeft meer diversiteit nodig in leeftijdsgroepen, culturele achtergronden, en verschillende opleidingsperspectieven.</statement>
-<statement id="39">Gebaseerd op ervaring met andere technologieën kan een leek meer waarde toevoegen aan de Nederlandse aanpak  dan een specialist.</statement>
-<statement id="40">Een dialoog tussen de wetenschap, de politiek (het beleid), het bedrijfsleven en de maatschappij (de burgers) zou een centrale rol moeten spelen.</statement>
-<statement id="41">De Nederlandse aanpak op het gebied van quantum technologie mag veroorzaken dat mensen ongevraagd worden voorzien van quantum technologie.</statement>
-<statement id="42">Omdat quantum technologie moeilijk te begrijpen is, hebben we een andere manier nodig om de gevolgen in culturele zin te begrijpen.</statement>
-   </statements>
+<!-- 
+//
+// ===================================================
+// FlashQ by Christian Hackert and Gernot Braehler
+// ===================================================
+// Statements.
+// @author		Christian Hackert <www.hackert.biz/flashq>
+// @version		FlashQ version 1.0
+// ===================================================
+// 
+// This is the place for your statements. The maximum 
+// number of statements is theoretically unlimited, but
+// less then 50 statements are advisable.
+// If your are using German Umlauts and other special 
+// characters, make sure, that you save this XML-file 
+// as an UTF-8-document. White-space inbetween the 
+// nodes are ignored. Any white-space within the text-
+// nodes, including leading or trailing whitespace and 
+// line breaks, is preserved.
+//
+// EXAMPLE
+// Let's define some statements concerning FlashQ:
+// Statement 1: FlashQ is very usefull.
+// Statement 2: I prefer offline surveys.
+// Statement 3: FlashQ is too complicated to configure.
+//
+// Each statement requires a seperate statement-node 
+// consisting out of an opening and a closing tag. The 
+// statement itself goes between this two tags. 
+// The unique statement id is saved as an 
+// attribute called 'id'. We have three exmaple 
+// statements and we need therefore three statement-
+// nodes and one parent-node. 
+//
+// <statements version="1.0" htmlparse="false">
+//   <statement id="1">FlashQ is very usefull.</statement>
+//   <statement id="2">I prefer offline surveys.</statement>
+//   <statement id="3">FlashQ is too complicated to configure</statement>
+// </statements>
+// 
+// ===================================================
+// 
+-->
+
+<statements version="1.0" htmlParse="false">
+ <statement id="1">Ik wil graag toepassen wat ik heb geleerd in mijn bachelor</statement>
+ <statement id="2">Ik ben benieuwd of ik iets heb aan de methodes die ik heb opgedaan in mijn bachelor</statement>
+ <statement id="3">Ik wil zo min mogelijk hulp van mijn begeleider</statement>
+ <statement id="4">Als ik vragen heb stap ik zelf op mijn begeleider af</statement>
+ <statement id="5">Ik wil graag een hoog cijfer halen voor mijn BEP</statement>
+ <statement id="6">Het lijkt mij lastig om continu met één onderwerp bezig te zijn</statement>
+ <statement id="7">Als ik aan mijn BEP begin wil ik geen tijd besteden aan andere vakken. Anders ben ik bang niet genoeg focus te hebben voor mijn BEP</statement>
+ <statement id="8">Het lijkt mij lastig om wetenschappelijke literatuur toe te passen in het BEP</statement>
+ <statement id="9">Ik zou graag iets toevoegen aan de wetenschap met mijn BEP</statement>
+ <statement id="10">Ik zou graag iets toevoegen aan de praktijk met mijn BEP</statement>
+ <statement id="11">Ik ben persoonlijk sterk gemotiveerd om mijn BEP af te ronden</statement>
+ <statement id="12">Het BEP lijkt mij het leukste project van de bachelor, hier kun je al je opgedane kennis combineren</statement>
+ <statement id="13">Ik wil een onderwerp kiezen wat aansluit bij mijn interesse</statement>
+ <statement id="14">Het is mijn BEP, dus ik moet het ook alleen doen</statement>
+ <statement id="15">Als ik kon kiezen zou ik geen BEP doen, maar iets vervangends</statement>
+ <statement id="16">Ik ga mijn BEP doen zodat ik mijn diploma haal en toegang krijg tot de master</statement>
+ <statement id="17">Mijn diploma halen vind ik belangrijker dan een goed BEP neerzetten</statement>
+ <statement id="18">Mijn BEP zie ik als een oriëntatie op mijn masterkeuze</statement>
+ <statement id="19">Door het BEP verwacht ik een beter beeld te krijgen van hoe het bedrijfsleven werkt</statement>
+ <statement id="20">Door het BEP verwacht ik waardevoller te zijn voor bedrijven</statement>
+ <statement id="21">Ik wil dat mijn BEP gericht is op een onderwerp/vakgebied waar ik later in wil werken</statement>
+ <statement id="22">Als ik mijn BEP afrond verwacht ik dat mijn omgeving trots zal zijn</statement>
+ <statement id="23">Ik vind het belangrijk wat mijn omgeving vindt van mijn BEP resultaat</statement>
+ <statement id="24">Ik wil dat mijn vrienden mijn BEP als voorbeeld zien van een geslaagd BEP</statement>
+ <statement id="25">Ik zie op tegen mijn BEP</statement>
+ <statement id="26">Ik hoop dat mijn begeleider open staat voor mijn vragen</statement>
+ <statement id="27">Als ik aan mijn BEP denk, heb ik geen idee waar ik moet beginnen</statement>
+ <statement id="28">De vrijheid en zelfstandigheid tijdens het BEP lijkt me leuk</statement>
+ <statement id="29">Ik verwacht dat ik moeite zal hebben om met de vrijheid en zelfstandigheid tijden het BEP om te gaan</statement>
+ <statement id="30">Ik zou graag willen dat mijn begeleider actief begeleid en vraagt naar de voortgang</statement>
+ <statement id="31">Ik werk graag met opgelegde deadlines (ook tijdens mijn BEP)</statement>
+ <statement id="32">Het lijkt mij een leuke uitdaging individueel (in plaatst van in een groep) aan een project te werken</statement>
+  </statements>
