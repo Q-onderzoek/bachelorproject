@@ -97,7 +97,7 @@ Als u deze instructie nog een keer wilt lezen, druk dan op 'Help' in de hoek rec
   <item id="transferHead">Afronden vragenlijst</item>
   <item id="transferText"> U heeft de vragenlijst afgerond. Stuur uw antwoorden nu op.</item>
   <item id="transferFailed"> Het opsturen van de antwoorden is mislukt. Probeer het nog eens of email de resultaten.</item>
-  <item id="transferOk"> Dank voor het opsturen van uw antwoorden. Klik op de volgende link om weer naar bedrijf X te gaan. Thank you for unsing FlashQ. We would appreciate if you could send us feeddback about this application (bugs, ideas, suggestion, etc.).{br}{br}Christian Hackert{br}{a href="http://www.hackert.biz/flashq" target="_blank"}{u}www.hackert.biz/flashq{/u}{/a}.{br}{br}You can now close your browser window.</item>
+  <item id="transferOk"> Dank voor het opsturen van uw antwoorden.</item>
 
   <!-- send data via mail, only displayed if submitUrl is blank (see config-file) -->
   <item id="mailHead">Submit Data</item>
