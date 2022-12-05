@@ -45,8 +45,8 @@
   <item id="form">
     <label>Cohort</label>
     <label>studienummer</label>
-	<note>Wat is je studienummer?</note>
-	<input type="text" required="true" maxlength="7" restricted="0-9"></input>
+	<note>Vul hier een zelfverzonnen naam in (dan kun je straks zien in welk perceptief je valt).</note>
+	<input type="text" required="true" maxlength="20" ></input>
 	
 	<note>Hoeveel jaar studeer je al aan de universiteit?</note>
 	<input type="radio" required="true">1 jaar;2 jaar;3 jaar;4 jaar;meer dan 4 jaar</input>
