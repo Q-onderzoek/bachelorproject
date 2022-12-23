@@ -1,13 +1,13 @@
 // Initialize Firebase
 var config = {
-  apiKey: "AIzaSyBtNGcJLbrhzswf-EH5Z4tw1Ie24lRrp1w",
-  authDomain: "bep2022-6334d.firebaseapp.com",
-  databaseURL: "https://bep2022-6334d-default-rtdb.firebaseio.com",
-  projectId: "bep2022-6334d",
-  storageBucket: "bep2022-6334d.appspot.com",
-  messagingSenderId: "958536690125",
-  appId: "1:958536690125:web:571516c1ea42266a077c84",
-  measurementId: "G-WSBGLVGS9C"
+  apiKey: "AIzaSyBOpDUsgxKxM3Y4yJmAgdJ7rtI8zjyK8SI",
+  authDomain: "test-95c0c.firebaseapp.com",
+  databaseURL: "https://test-95c0c-default-rtdb.firebaseio.com",
+  projectId: "test-95c0c",
+  storageBucket: "test-95c0c.appspot.com",
+  messagingSenderId: "448982636294",
+  appId: "1:448982636294:web:d4fe2b5f10becad2ba7087",
+  measurementId: "G-LSD9S5CENL"
 
 };
 firebase.initializeApp(config);
