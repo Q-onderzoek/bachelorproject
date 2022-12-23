@@ -1,80 +1,47 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
-<!-- 
-//
-// ===================================================
-// FlashQ by Christian Hackert and Gernot Braehler
-// ===================================================
-// Statements.
-// @author		Christian Hackert <www.hackert.biz/flashq>
-// @version		FlashQ version 1.0
-// ===================================================
-// 
-// This is the place for your statements. The maximum 
-// number of statements is theoretically unlimited, but
-// less then 50 statements are advisable.
-// If your are using German Umlauts and other special 
-// characters, make sure, that you save this XML-file 
-// as an UTF-8-document. White-space inbetween the 
-// nodes are ignored. Any white-space within the text-
-// nodes, including leading or trailing whitespace and 
-// line breaks, is preserved.
-//
-// EXAMPLE
-// Let's define some statements concerning FlashQ:
-// Statement 1: FlashQ is very usefull.
-// Statement 2: I prefer offline surveys.
-// Statement 3: FlashQ is too complicated to configure.
-//
-// Each statement requires a seperate statement-node 
-// consisting out of an opening and a closing tag. The 
-// statement itself goes between this two tags. 
-// The unique statement id is saved as an 
-// attribute called 'id'. We have three exmaple 
-// statements and we need therefore three statement-
-// nodes and one parent-node. 
-//
-// <statements version="1.0" htmlparse="false">
-//   <statement id="1">FlashQ is very usefull.</statement>
-//   <statement id="2">I prefer offline surveys.</statement>
-//   <statement id="3">FlashQ is too complicated to configure</statement>
-// </statements>
-// 
-// ===================================================
-// 
--->
+   <statements version="1.0" htmlParse="false">
+     <statement id="1">       Een "minikerncentrale": dan moet het wel een beetje leuk eruitzien.</statement>
+     <statement id="2">       Ik heb liever een paar kerncentrales dan een zee vol windmolens en weilanden vol zonnepanelen.</statement>
+     <statement id="3">       Ik ben voorstander van kerncentrales. Ik denk dat het dé oplossing is.</statement>
+     <statement id="4">       Radioactief afval opslaan in een bunker lijkt me veilig.</statement>
+     <statement id="5">       Er is gewoon iets aan kernenergie dat me ongemakkelijk maakt.</statement>
+     <statement id="6">       Zonder kernenergie gaan we onze klimaatdoelen niet halen.</statement>
+     <statement id="7">       Het is hypocriet wel kernenergie te importeren, maar niet zelf te produceren.</statement>
+     <statement id="8">       Met kernenergie zadelt Nederland toekomstige generaties op met een afvalprobleem.</statement>
+     <statement id="9">       Het is moreel verwerpelijk om nieuwe kerncentrales te bouwen.</statement>
+     <statement id="10">      De bezorgdheid over kernenergie, bijvoorbeeld van lokale gemeenschappen, is legitiem en moet worden weggenomen.</statement>
+     <statement id="11">       De regering is meer bezorgd om geld en grote bedrijven dan om publieke belangen.</statement>
+     <statement id="12">       Nieuwe kerncentrales leveren Nederland geopolitiek voordeel op.</statement>
+     <statement id="13">       Zon en wind is prima, maar je hebt een stabiele bron nodig zoals kernenergie.</statement>
+     <statement id="14">       Kerncentrales zijn nodig om de energievoorziening in de toekomst veilig te stellen.</statement>
+     <statement id="15">       De brandstof voor kerncentrales (uranium) is niet hernieuwbaar en op termijn niet duurzaam.</statement>
+     <statement id="16">       Nieuwe kerncentrales zijn veilig.</statement>
+     <statement id="17">       Nederland is dichtbevolkt waardoor de gevolgen bij een ongeluk relatief groot zijn. </statement>
+     <statement id="18">       Ik zou het niet erg vinden als er een kerncentrale in mijn woonomgeving zou worden gebouwd.</statement> 
+     <statement id="19">       Er zijn veel kankerrisico's verbonden aan een kerncentrale.</statement>
+     <statement id="20">       Er is geen veilige manier om hoogradioactief afval op te bergen. </statement>
+     <statement id="21">       Nieuwe kerncentrales vormen geen direct gevaar voor de volksgezondheid.</statement>
+     <statement id="22">       De gevolgen van een ramp voor de volksgezondheid zijn groot.</statement>
+     <statement id="23">       Mensen in Nederland kunnen ziek worden van angst voor de kerncentrales.</statement>
+     <statement id="24">       Het publieke verzet tegen kernenergie is een belemmering voor klimaatactie.  </statement>
+     <statement id="25">       Groenen maken ten onrechte bezwaar tegen kernenergie. Om de klimaatcrisis aan te pakken is kernenergie nodig.</statement>
+     <statement id="26">       Nieuwe centrales stimuleren de ontwikkeling van (nucleaire) technologie in Nederland. </statement>
+     <statement id="27">       Om tot een aanzienlijke wereldwijde emissiereductie te komen, moeten we alle opties benutten. </statement>
+     <statement id="28">       Kernenergie is één van de schoonste manieren om energie te produceren.</statement>
+     <statement id="29">       Wie tegen kernenergie is, laat het klimaatprobleem bestaan.</statement>
+     <statement id="30">       Bij de productie van kernenergie komt nauwelijks CO2 vrij.</statement>
+     <statement id="31">       De gevaarlijkste hoeveelheid radioactief afval is in volume beperkt (enkele kubieke meters per jaar).</statement>
+     <statement id="32">       Nieuwe kerncentrales belemmeren de ontwikkeling van duurzame energiebronnen (wind/zon).</statement>
+     <statement id="33">       De winning van de brandstof voor kerncentrales (uranium) schaadt het milieu in de landen van herkomst.</statement>
+     <statement id="34">       "Minikerncentrales" zijn goedkoper om te bouwen.</statement>
+     <statement id="35">       Kernenergie is bijna altijd duurder dan hernieuwbare stroom.</statement>
+     <statement id="36">       Minikerncentrales kunnen sneller worden ingezet dan conventionele.</statement>
+     <statement id="37">       Consumenten en bedrijven kunnen profiteren van de lagere energierekening als ingezet wordt op kernenergie.</statement>
+     <statement id="38">       Nieuwe kerncentrales zijn goed voor de Nederlandse economie.</statement> 
+     <statement id="39">       De bouw van nieuwe centrales is financieel riskant.</statement>
+     <statement id="40">       De falende "Energiewende" in Duitsland laat zien waarom het taboe op kernenergie doorbroken moet worden.</statement>
+     <statement id="41">       De consument profiteert niet direct van de lage kostprijs van kernenergie.</statement>
+     <statement id="42">       Misschien als we kernenergie hadden, zouden we niet zo afhankelijk zijn van Rusland.</statement>
 
-<statements version="1.0" htmlParse="false">
- <statement id="1">Ik wil graag toepassen wat ik heb geleerd in mijn bachelor</statement>
- <statement id="2">Ik ben benieuwd of ik iets heb aan de methodes die ik heb opgedaan in mijn bachelor</statement>
- <statement id="3">Ik wil zo min mogelijk hulp van mijn begeleider</statement>
- <statement id="4">Als ik vragen heb stap ik zelf op mijn begeleider af</statement>
- <statement id="5">Ik wil graag een hoog cijfer halen voor mijn BEP</statement>
- <statement id="6">Het lijkt mij lastig om continu met één onderwerp bezig te zijn</statement>
- <statement id="7">Als ik aan mijn BEP begin wil ik geen tijd besteden aan andere vakken. Anders ben ik bang niet genoeg focus te hebben voor mijn BEP</statement>
- <statement id="8">Het lijkt mij lastig om wetenschappelijke literatuur toe te passen in het BEP</statement>
- <statement id="9">Ik zou graag iets toevoegen aan de wetenschap met mijn BEP</statement>
- <statement id="10">Ik zou graag iets toevoegen aan de praktijk met mijn BEP</statement>
- <statement id="11">Ik ben persoonlijk sterk gemotiveerd om mijn BEP af te ronden</statement>
- <statement id="12">Het BEP lijkt mij het leukste project van de bachelor, hier kun je al je opgedane kennis combineren</statement>
- <statement id="13">Ik wil een onderwerp kiezen wat aansluit bij mijn interesse</statement>
- <statement id="14">Het is mijn BEP, dus ik moet het ook alleen doen</statement>
- <statement id="15">Als ik kon kiezen zou ik geen BEP doen, maar iets vervangends</statement>
- <statement id="16">Ik ga mijn BEP doen zodat ik mijn diploma haal en toegang krijg tot de master</statement>
- <statement id="17">Mijn diploma halen vind ik belangrijker dan een goed BEP neerzetten</statement>
- <statement id="18">Mijn BEP zie ik als een oriëntatie op mijn masterkeuze</statement>
- <statement id="19">Door het BEP verwacht ik een beter beeld te krijgen van hoe het bedrijfsleven werkt</statement>
- <statement id="20">Door het BEP verwacht ik waardevoller te zijn voor bedrijven</statement>
- <statement id="21">Ik wil dat mijn BEP gericht is op een onderwerp/vakgebied waar ik later in wil werken</statement>
- <statement id="22">Als ik mijn BEP afrond verwacht ik dat mijn omgeving trots zal zijn</statement>
- <statement id="23">Ik vind het belangrijk wat mijn omgeving vindt van mijn BEP resultaat</statement>
- <statement id="24">Ik wil dat mijn vrienden mijn BEP als voorbeeld zien van een geslaagd BEP</statement>
- <statement id="25">Ik zie op tegen mijn BEP</statement>
- <statement id="26">Ik hoop dat mijn begeleider open staat voor mijn vragen</statement>
- <statement id="27">Als ik aan mijn BEP denk, heb ik geen idee waar ik moet beginnen</statement>
- <statement id="28">De vrijheid en zelfstandigheid tijdens het BEP lijkt me leuk</statement>
- <statement id="29">Ik verwacht dat ik moeite zal hebben om met de vrijheid en zelfstandigheid tijden het BEP om te gaan</statement>
- <statement id="30">Ik zou graag willen dat mijn begeleider actief begeleid en vraagt naar de voortgang</statement>
- <statement id="31">Ik werk graag met opgelegde deadlines (ook tijdens mijn BEP)</statement>
- <statement id="32">Het lijkt mij een leuke uitdaging individueel (in plaatst van in een groep) aan een project te werken</statement>
-  </statements>
+   </statements>

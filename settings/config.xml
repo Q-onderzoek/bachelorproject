@@ -1,58 +1,68 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
-<!-- 
-//
-// ===================================================
-// FlashQ by Christian Hackert and Gernot Braehler
-// ===================================================
-// Configuration file.
-// @author		Christian Hackert <www.hackert.biz/flashq>
-// @version		FlashQ version 1.0
-// ===================================================
-// 
--->
+   <config version="1.0" htmlParse="false">
 
-<config version="1.0" htmlParse="false">
+     <!-- title of the study -->
+     <item id="studyTitle">My_Q_project</item>
 
-  <!-- title of the study -->
-  <item id="studyTitle">Q-studie Anna</item>
+     <!-- text-align property(left|right) -->
+     <item id="textAlign">left</item>
 
-  <!-- text-align property(left|right) -->
-  <item id="textAlign">left</item>
+     <!-- shuffle cards (true|false)  -->
+     <item id="shuffleCards">true</item>
 
-  <!-- shuffle cards (true|false)  -->
-  <item id="shuffleCards">true</item>
+     <!-- login required (true|false) -->
+     <item id="loginrequired">false</item>
+     <!-- login with common password (leave blank if not required) -->
+     <item id="loginPassword"></item>
+    <item id="partNameRequired">true</item>
+      <!-- URL to individual login script(leave blank if not required) -->
+     <item id="loginUrl"></item>
+     <!-- request mode (post|get) -->
+     <item id="loginUrlMethod"></item>
 
-  <!-- login required (true|false) -->
-  <item id="loginrequired">false</item>
-  <!-- login with common password (leave blank if not required) -->
-  <item id="loginPassword"></item>
-  <!-- URL to individual login script(leave blank if not required) -->
-  <item id="loginUrl"></item>
-  <!-- request mode (post|get) -->
-  <item id="loginUrlMethod"></item>
+     <item id="setConstantCardHeight">false</item>
+     <item id="constantCardHeight">150</item>
+     <item id="setConstantCardWidth">false</item>
+     <item id="constantCardWidth">200</item>
+     <!-- activate/deactivate optional steps (true|false) -->
+     <item id="showStep3">true</item>
+     <item id="showStep4">true</item>
+     <item id="showStep5">true</item>
 
-  <!-- activate/deactivate optional steps (true|false) -->
-  <item id="showStep3">true</item>
-  <item id="showStep4">true</item>
-  <item id="showStep5">true</item>
+     <!-- HtmlQ only: disable the in-window back button -->
+     <item id="disableBackButton">true</item>
 
-  <!-- define form elements for step5; only displayed if showStep5 is true (delete tags if not required) -->
-  <!-- add label: <label>[STRING]</label> -->
-  <!-- add note: <note>[STRING]</note> -->
-  <!-- add input-field: <input type="[text|textarea|radio|select|checkbox|rating2|rating5|rating10]">[VALUE]</input> -->
-  <!-- optional attributes: bg, id, maxlength, restricted, required, scale  -->
-  <item id="form">
-    <label>Cohort</label>
-    <label>studienummer</label>
-	<note>Vul hier een zelfverzonnen naam in (dan kun je straks zien in welk perceptief je valt).</note>
-	<input type="text" required="true" maxlength="20" ></input>
-	
-	<note>Hoeveel jaar studeer je al aan de universiteit?</note>
-	<input type="radio" required="true">1 jaar;2 jaar;3 jaar;4 jaar;meer dan 4 jaar</input>
+     <!-- define form elements for step5; only displayed if showStep5 is true (delete tags if not required) -->
+     <!-- add label: <label>[STRING]</label> -->
+     <!-- add note: <note>[STRING]</note> -->
+     <!-- add input-field: <input type="[text|textarea|radio|select|checkbox|rating2|rating5|rating10]">[VALUE]</input> -->
+     <!-- optional attributes: bg, id, maxlength, restricted, required, scale  -->
+     <item id="form">
+        <note bg="true">Alle velden met een * zijn verplicht</note>
 
-    <note bg="false">All fields marked with an * are mandatory.</note>
- 
+        <label>Age*</label>
+        <note>Voer uw geboortejaar in (JJJJ, bijv. 1995).</note>
+        <input type="text" required="true" maxlength="4" restricted="0-9"></input>
+         
+        <label>Geslacht*</label>
+        <note>uw geslacht*</note>
+        <input type="radio" required="true">Man;Vrouw;Anders;Wil ik niet zeggen</input>
+
+        <label>Beschrijf uw mening over kerncentrales en kernenergie en in hoeverre u zich op uw gemak zou voelen als er een kleine kerncentrale zou komen in de nabijheid van uw woonplaats. *</label>
+        <input type="textarea" required="true"></input>
+
+        <label>politieke voorkeur*</label>
+        <note>Selecteer uw politieke voorkeur</note>
+        <input type="radio" required="true">Rechts;Centrumrechts;Centrum;Centrumlinks;Links</input>
+
+        <label>opleidingsniveau</label>
+        <input type="radio" required="true">basisschoolniveau;vbo/mavo/vmbo/mbo-1;havo/vwo/mbo-2-4;hbo;wo</input>
+
+        <label>Gelieve te reageren op de volgende stelling</label>
+        <input type="rating2" required="true" scale="Ja;Nee">Ik heb eerder van SMR's gehoord en ben bekend met de technologie.</input>
+
+
      </item>
 
      <!-- URL for data transmission via POST/GET (leave blank if not required) -->
